@@ -16,7 +16,7 @@ public class TrabajadorControlador {
     @Autowired
     private TrabajadorServicio servicio;
 
-    @GetMapping({"/trabajadores","/"})
+    @GetMapping("/trabajadores")
     public String listarTrabajadores(Model modelo){
         modelo.addAttribute("trabajadores", servicio.ListarTrabajadores());
         return "trabajadores";
