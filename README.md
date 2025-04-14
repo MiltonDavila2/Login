@@ -1,4 +1,4 @@
-# CRUD
+# LOGIN
 Bienvenidos, este es mi sistema de Login hecho en Spring, utilizando las librerias de JPA, Thymeleaf, MySQL y Spring Security. En el siguiente documento veremos como funciona y como se compone este proyecto.
 
 # Descripcion
